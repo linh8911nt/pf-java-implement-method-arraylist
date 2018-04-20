@@ -66,7 +66,7 @@ public class MyList<E> implements MyListInterface{
         if (size == elements.length){
             ensureCapacity(1);
         }
-        elements[++size] = o;
+        elements[size++] = o;
         return true;
     }
 
